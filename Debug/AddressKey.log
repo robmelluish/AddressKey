@@ -1,0 +1,14 @@
+﻿          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+  AddressKey.cpp
+c:\users\rob\documents\visual studio 2015\projects\dbconnection\dbconnection\cppconn\sqlstring.h(39): warning C4251: 'sql::SQLString::realStr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLString'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\rob\documents\visual studio 2015\projects\dbconnection\dbconnection\cppconn\exception.h(61): warning C4251: 'sql::SQLException::sql_state': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'sql::SQLException'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\users\rob\documents\visual studio 2015\projects\dbconnection\dbconnection\cppconn\exception.h(145): warning C4251: 'sql::SQLUnsupportedOptionException::option': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of struct 'sql::SQLUnsupportedOptionException'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstring(2633): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+     Creating library C:\Users\rob\Documents\Visual Studio 2015\Projects\AddressKey\Debug\AddressKey.lib and object C:\Users\rob\Documents\Visual Studio 2015\Projects\AddressKey\Debug\AddressKey.exp
+LINK : fatal error LNK1201: error writing to program database 'C:\Users\rob\Documents\Visual Studio 2015\Projects\AddressKey\Debug\AddressKey.pdb'; check for insufficient disk space, invalid path, or insufficient privilege
